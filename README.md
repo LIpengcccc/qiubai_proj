@@ -40,4 +40,6 @@ redis_key = 'myspider:start_urls'
 
 ok，大功告成，就可以跑了
 
+另外，可以了解一下，celery分布式爬虫，大牛简书地址https://www.jianshu.com/p/273f8154624f
+
 
