@@ -35,6 +35,9 @@ ITEM_PIPELINES = {'scrapy_redis.pipelines.RedisPipeline': 300,}
 name = 'myspider_redis'
 redis_key = 'myspider:start_urls'
 
+
+lpush mysipder:start_urls 
+
 把多余的类变量注释掉，比如start_url,allowed_domains之类的全都注释掉
 
 
